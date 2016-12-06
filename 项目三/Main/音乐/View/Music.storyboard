@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Rth-U6-mjy">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Bass Navigation Controller-->
+        <scene sceneID="ojm-ix-73d">
+            <objects>
+                <navigationController id="Rth-U6-mjy" customClass="BassNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sp9-gg-qfw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5PD-H1-AsH" kind="relationship" relationship="rootViewController" id="NmT-ok-Ne7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y0n-FZ-jC7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-361.60000000000002" y="270.74666666666667"/>
+        </scene>
+        <!--音乐-->
+        <scene sceneID="9Nm-AJ-68Q">
+            <objects>
+                <viewController id="5PD-H1-AsH" customClass="MusicViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0FL-nE-EVf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvg-38-Kd5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XdD-Nj-WVh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="音乐" id="e6j-M1-cAW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jIN-Uu-tZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-19" y="270"/>
+        </scene>
+    </scenes>
+</document>

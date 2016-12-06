@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Hoe-ef-pWY">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Bass Navigation Controller-->
+        <scene sceneID="rhu-Nd-gTm">
+            <objects>
+                <navigationController id="Hoe-ef-pWY" customClass="BassNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LtA-hx-DFT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Pq1-yt-pHk" kind="relationship" relationship="rootViewController" id="xkT-xc-swd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qd8-pu-TJO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-144.53333333333333" y="332.27999999999997"/>
+        </scene>
+        <!--阅读-->
+        <scene sceneID="6RC-PM-XLB">
+            <objects>
+                <viewController id="Pq1-yt-pHk" customClass="ReadViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vr4-k8-FSE"/>
+                        <viewControllerLayoutGuide type="bottom" id="bDx-F9-zkG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sFJ-go-aX2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="阅读" id="7b4-53-jQ5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AcX-5b-Xxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="235" y="332"/>
+        </scene>
+    </scenes>
+</document>

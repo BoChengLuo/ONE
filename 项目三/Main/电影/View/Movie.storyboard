@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M8E-cx-k58">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Bass Navigation Controller-->
+        <scene sceneID="ZJR-lD-wzl">
+            <objects>
+                <navigationController id="M8E-cx-k58" customClass="BassNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H59-tH-3NS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="btb-9z-XRk" kind="relationship" relationship="rootViewController" id="C0T-KB-xNE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9Q-eM-J6w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-335.46666666666664" y="241.40000000000001"/>
+        </scene>
+        <!--电影-->
+        <scene sceneID="Ele-bC-OmM">
+            <objects>
+                <viewController id="btb-9z-XRk" customClass="MovieViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5at-yQ-nf0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ygw-KT-psQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jCI-KX-QNQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="电影" id="E9P-5g-gNA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXg-3u-nA4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="241"/>
+        </scene>
+    </scenes>
+</document>
